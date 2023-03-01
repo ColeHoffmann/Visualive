@@ -4,7 +4,15 @@ import Intro from "./components/Intro";
 
 function App() {
   return (
-    <div className="App">
+    <div
+      class="flex items-center justify-center h-64  
+    bg-gradient-to-r 
+    from-blue-400 
+    to-orange-500 
+    via-purple-500
+    animate-gradient-x
+    "
+    >
       <Intro />
     </div>
   );
